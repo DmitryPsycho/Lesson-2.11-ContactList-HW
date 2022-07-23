@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		408B7A2D2888447B00FB0D9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B7A2C2888447B00FB0D9B /* AppDelegate.swift */; };
 		408B7A2F2888447B00FB0D9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B7A2E2888447B00FB0D9B /* SceneDelegate.swift */; };
-		408B7A312888447B00FB0D9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B7A302888447B00FB0D9B /* ViewController.swift */; };
 		408B7A342888447B00FB0D9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408B7A322888447B00FB0D9B /* Main.storyboard */; };
 		408B7A362888447C00FB0D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408B7A352888447C00FB0D9B /* Assets.xcassets */; };
 		408B7A392888447C00FB0D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408B7A372888447C00FB0D9B /* LaunchScreen.storyboard */; };
+		408B7A462888453F00FB0D9B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B7A452888453F00FB0D9B /* Person.swift */; };
+		408B7A4928884C0C00FB0D9B /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B7A4828884C0C00FB0D9B /* DataStore.swift */; };
+		408B7A4B2888664A00FB0D9B /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B7A4A2888664A00FB0D9B /* ContactListViewController.swift */; };
+		408B7A712889C88700FB0D9B /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B7A702889C88700FB0D9B /* TabBarViewController.swift */; };
+		408B7A73288C1D5500FB0D9B /* SectionTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B7A72288C1D5500FB0D9B /* SectionTabViewController.swift */; };
+		408B7A75288C1F0A00FB0D9B /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B7A74288C1F0A00FB0D9B /* ContactDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		408B7A292888447B00FB0D9B /* Lesson 2.11 ContactList HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 2.11 ContactList HW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		408B7A2C2888447B00FB0D9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		408B7A2E2888447B00FB0D9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		408B7A302888447B00FB0D9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		408B7A332888447B00FB0D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		408B7A352888447C00FB0D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		408B7A382888447C00FB0D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		408B7A3A2888447C00FB0D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408B7A452888453F00FB0D9B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		408B7A4828884C0C00FB0D9B /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		408B7A4A2888664A00FB0D9B /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		408B7A702889C88700FB0D9B /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		408B7A72288C1D5500FB0D9B /* SectionTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTabViewController.swift; sourceTree = "<group>"; };
+		408B7A74288C1F0A00FB0D9B /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,68 @@
 		408B7A2B2888447B00FB0D9B /* Lesson 2.11 ContactList HW */ = {
 			isa = PBXGroup;
 			children = (
-				408B7A2C2888447B00FB0D9B /* AppDelegate.swift */,
-				408B7A2E2888447B00FB0D9B /* SceneDelegate.swift */,
-				408B7A302888447B00FB0D9B /* ViewController.swift */,
-				408B7A322888447B00FB0D9B /* Main.storyboard */,
-				408B7A352888447C00FB0D9B /* Assets.xcassets */,
-				408B7A372888447C00FB0D9B /* LaunchScreen.storyboard */,
-				408B7A3A2888447C00FB0D9B /* Info.plist */,
+				408B7A402888448B00FB0D9B /* ViewControllers */,
+				408B7A442888452400FB0D9B /* Models */,
+				408B7A47288846B300FB0D9B /* Services  */,
+				408B7A41288844D700FB0D9B /* StoryBoards */,
+				408B7A43288844F900FB0D9B /* Resources */,
+				408B7A42288844F100FB0D9B /* App */,
 			);
 			path = "Lesson 2.11 ContactList HW";
+			sourceTree = "<group>";
+		};
+		408B7A402888448B00FB0D9B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				408B7A702889C88700FB0D9B /* TabBarViewController.swift */,
+				408B7A4A2888664A00FB0D9B /* ContactListViewController.swift */,
+				408B7A72288C1D5500FB0D9B /* SectionTabViewController.swift */,
+				408B7A74288C1F0A00FB0D9B /* ContactDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		408B7A41288844D700FB0D9B /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				408B7A322888447B00FB0D9B /* Main.storyboard */,
+				408B7A372888447C00FB0D9B /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		408B7A42288844F100FB0D9B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				408B7A2C2888447B00FB0D9B /* AppDelegate.swift */,
+				408B7A2E2888447B00FB0D9B /* SceneDelegate.swift */,
+				408B7A3A2888447C00FB0D9B /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		408B7A43288844F900FB0D9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				408B7A352888447C00FB0D9B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		408B7A442888452400FB0D9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				408B7A452888453F00FB0D9B /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		408B7A47288846B300FB0D9B /* Services  */ = {
+			isa = PBXGroup;
+			children = (
+				408B7A4828884C0C00FB0D9B /* DataStore.swift */,
+			);
+			path = "Services ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408B7A312888447B00FB0D9B /* ViewController.swift in Sources */,
+				408B7A73288C1D5500FB0D9B /* SectionTabViewController.swift in Sources */,
+				408B7A712889C88700FB0D9B /* TabBarViewController.swift in Sources */,
 				408B7A2D2888447B00FB0D9B /* AppDelegate.swift in Sources */,
+				408B7A4B2888664A00FB0D9B /* ContactListViewController.swift in Sources */,
+				408B7A462888453F00FB0D9B /* Person.swift in Sources */,
+				408B7A4928884C0C00FB0D9B /* DataStore.swift in Sources */,
+				408B7A75288C1F0A00FB0D9B /* ContactDetailsViewController.swift in Sources */,
 				408B7A2F2888447B00FB0D9B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GYQWR7DN6H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Lesson 2.11 ContactList HW/Info.plist";
+				INFOPLIST_FILE = "Lesson 2.11 ContactList HW/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +385,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GYQWR7DN6H;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Lesson 2.11 ContactList HW/Info.plist";
+				INFOPLIST_FILE = "Lesson 2.11 ContactList HW/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
